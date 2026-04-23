@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" href="/logo.jpg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Giggles Play Zone | Magical Indoor Play & Preschool in Yapral, Secunderabad</title>
+  <meta name="description" content="Giggles Play Zone — A magical indoor play zone and preschool for kids aged 2-8 in Yapral, Secunderabad. 30+ activities, Montessori learning, birthday parties & daycare." />
+  <!-- Fonts: Caveat for headings, Poppins for body -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Poppins:wght@300;400;500;600;700&family=Baloo+2:wght@400..800&display=swap" rel="stylesheet">
+  <script type="module" crossorigin src="/assets/index-DL5lwiGn.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-D21nxw1j.css">
+</head>
+
+<body>
+  <!-- ===== SPACE BACKGROUND CANVAS ===== -->
+  <canvas id="spaceCanvas"></canvas>
+
+
+
+
+  <!-- ===== WHATSAPP FLOATING BUTTON ===== -->
+  <a href="https://wa.me/919014999346" target="_blank" class="whatsapp-float" aria-label="Chat on WhatsApp">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="#fff" width="32" height="32">
+      <path d="M16.004 0h-.008C7.174 0 0 7.176 0 16.004c0 3.5 1.132 6.744 3.054 9.378L1.054 31.15l5.96-1.966A15.92 15.92 0 0 0 16.004 32C24.826 32 32 24.826 32 16.004S24.826 0 16.004 0zm9.35 22.616c-.392 1.1-1.94 2.016-3.17 2.282-.842.18-1.94.322-5.638-1.212-4.734-1.96-7.78-6.76-8.016-7.074-.226-.314-1.9-2.53-1.9-4.826s1.2-3.426 1.628-3.894c.392-.428 1.036-.642 1.652-.642.198 0 .378.02.538.036.428.018.642.042.924.714.354.84 1.214 2.964 1.318 3.18.108.218.218.512.068.808-.14.304-.264.44-.482.69-.218.25-.426.44-.644.71-.198.234-.42.484-.178.912.24.428 1.072 1.768 2.302 2.864 1.584 1.412 2.918 1.852 3.332 2.056.314.154.688.126.938-.154.32-.358.714-.952 1.116-1.536.286-.418.646-.47.994-.322.354.14 2.244 1.058 2.63 1.252.386.194.644.29.738.452.092.16.092.934-.3 2.034z"/>
+    </svg>
+  </a>
+
+  <!-- ===== NAVIGATION ===== -->
+  <header class="glass-header" id="mainHeader">
+    <div class="logo">
+      <img src="/logo.jpg" alt="Giggles Play Zone Logo" class="logo-img" />
+      <span class="logo-text">Giggles</span>
+    </div>
+    <nav class="desktop-nav" id="desktopNav">
+      <a href="#about">About</a>
+      <a href="#why-choose-us">Why Us</a>
+      <a href="#programs">Programs</a>
+      <a href="#testimonials">Reviews</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#faqs">FAQs</a>
+      <a href="#contact" class="btn-primary small">Book a Visit</a>
+    </nav>
+    <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <!-- ===== MOBILE NAV OVERLAY ===== -->
+  <div class="mobile-nav-overlay" id="mobileNav">
+    <div class="mobile-nav-content glass-card">
+      <img src="/logo.jpg" alt="Giggles Logo" class="mobile-nav-logo" />
+      <a href="#about" class="mobile-nav-link">About</a>
+      <a href="#why-choose-us" class="mobile-nav-link">Why Us</a>
+      <a href="#programs" class="mobile-nav-link">Programs</a>
+      <a href="#testimonials" class="mobile-nav-link">Reviews</a>
+      <a href="#gallery" class="mobile-nav-link">Gallery</a>
+      <a href="#faqs" class="mobile-nav-link">FAQs</a>
+      <a href="#contact" class="btn-primary">Book a Visit</a>
+    </div>
+  </div>
+
+  <main>
+    <!-- ===== HERO SECTION ===== -->
+    <section id="hero" class="hero">
+      <div class="hero-video-wrapper">
+        <video autoplay loop muted playsinline class="hero-video">
+          <source src="/assets/hero-section-CGwfX0ts.mp4" type="video/mp4">
+        </video>
+        <div class="hero-overlay"></div>
+      </div>
+
+      <div class="hero-content">
+        <img src="/logo.jpg" alt="Giggles Logo" class="hero-logo" />
+        <h1 class="hero-heading">Where Little Giggles Begin <span class="text-rainbow">Big Adventures</span></h1>
+        <p class="hero-subheading">A magical world where children jump, play, learn, and grow with joy. At Giggles Play Zone, every moment is filled with laughter, creativity, and discovery.</p>
+        <div class="hero-buttons">
+          <a href="#contact" class="btn-primary glowing">Book a Visit</a>
+          <a href="#programs" class="btn-secondary">Explore Programs</a>
+        </div>
+      </div>
+
+      <div class="scroll-indicator">
+        <div class="mouse">
+          <div class="mouse-wheel"></div>
+        </div>
+        <span class="scroll-text">Scroll to explore</span>
+      </div>
+    </section>
+
+    <!-- ===== ABOUT SECTION ===== -->
+    <section id="about" class="about">
+      <div class="container">
+        <h2 class="section-title text-center anim-reveal">Welcome to Our <span class="text-rainbow">Vibrant World</span></h2>
+
+        <div class="about-layout anim-reveal">
+          <div class="about-image-block">
+            <img src="/about.jpg" alt="Giggles Play Zone School" class="about-photo" />
+            <div class="about-photo-glow"></div>
+          </div>
+          <div class="about-text-block">
+            <p>Giggles Play Zone is a vibrant and joyful space designed especially for children to explore, play, and learn in a safe and nurturing environment. Located in Yapral, Secunderabad, we bring together fun, creativity, and early education under one roof.</p>
+            <p>From exciting indoor play activities to structured preschool learning, Giggles is a place where children feel free, happy, and inspired every single day.</p>
+          </div>
+        </div>
+
+        <div class="about-cards-grid">
+          <div class="about-card glass-card-v2 anim-reveal">
+            <div class="card-icon">💫</div>
+            <h3>About Us</h3>
+            <p>At Giggles Play Zone, we believe that childhood should be full of laughter, curiosity, and meaningful experiences. Our indoor play zone features more than 30 engaging soft play activities. Alongside fun, we focus on early childhood development through our Montessori play-way preschool curriculum.</p>
+          </div>
+          <div class="about-card glass-card-v2 anim-reveal">
+            <div class="card-icon">🚀</div>
+            <h3>Our Mission</h3>
+            <p>To create a safe, joyful, and inspiring environment where children can learn through play, develop essential life skills, and build happy memories every day.</p>
+          </div>
+          <div class="about-card glass-card-v2 anim-reveal">
+            <div class="card-icon">🌟</div>
+            <h3>Our Vision</h3>
+            <p>To become the most trusted and loved play school and activity center in the community by combining fun, learning, and care in a magical environment.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== WHY CHOOSE US ===== -->
+    <section id="why-choose-us" class="why-choose-us">
+      <div class="container">
+        <h2 class="section-title text-center anim-reveal">Why Choose <span class="text-rainbow">Giggles?</span></h2>
+        <div class="features-grid">
+          <div class="feature-card glass-card-v2 anim-reveal">
+            <div class="feature-icon-wrap"><span class="feature-icon">🛡️</span></div>
+            <h4>Safe & Hygienic</h4>
+            <p>Clean and secure indoor environment designed around safety.</p>
+            <div class="card-shine"></div>
+          </div>
+          <div class="feature-card glass-card-v2 anim-reveal">
+            <div class="feature-icon-wrap"><span class="feature-icon">🎢</span></div>
+            <h4>30+ Activities</h4>
+            <p>More than 30 fun-filled soft play activities for all ages.</p>
+            <div class="card-shine"></div>
+          </div>
+          <div class="feature-card glass-card-v2 anim-reveal">
+            <div class="feature-icon-wrap"><span class="feature-icon">😊</span></div>
+            <h4>Friendly Staff</h4>
+            <p>Caring, attentive professionals guiding your little ones.</p>
+            <div class="card-shine"></div>
+          </div>
+          <div class="feature-card glass-card-v2 anim-reveal">
+            <div class="feature-icon-wrap"><span class="feature-icon">❄️</span></div>
+            <h4>Air Conditioned</h4>
+            <p>Fully air-conditioned play area for comfortable fun.</p>
+            <div class="card-shine"></div>
+          </div>
+          <div class="feature-card glass-card-v2 anim-reveal">
+            <div class="feature-icon-wrap"><span class="feature-icon">📚</span></div>
+            <h4>Montessori Learning</h4>
+            <p>Focus on cognitive, social development and life skills.</p>
+            <div class="card-shine"></div>
+          </div>
+          <div class="feature-card glass-card-v2 anim-reveal">
+            <div class="feature-icon-wrap"><span class="feature-icon">🎂</span></div>
+            <h4>Birthday Events</h4>
+            <p>Perfect venue for memorable customized birthday celebrations.</p>
+            <div class="card-shine"></div>
+          </div>
+          <div class="feature-card glass-card-v2 anim-reveal">
+            <div class="feature-icon-wrap"><span class="feature-icon">🧠</span></div>
+            <h4>Cognitive Growth</h4>
+            <p>Focus on cognitive and social development for every child.</p>
+            <div class="card-shine"></div>
+          </div>
+          <div class="feature-card glass-card-v2 anim-reveal">
+            <div class="feature-icon-wrap"><span class="feature-icon">🎨</span></div>
+            <h4>Colorful Ambience</h4>
+            <p>Clean, colorful, and joyful play environment.</p>
+            <div class="card-shine"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== PROGRAMS SECTION ===== -->
+    <section id="programs" class="programs">
+      <div class="container">
+        <h2 class="section-title text-center anim-reveal">Our <span class="text-rainbow">Programs</span></h2>
+        <p class="section-desc anim-reveal">Explore the magical experiences we offer for your little ones</p>
+        <div class="programs-grid">
+          <div class="program-card-v2 anim-reveal" style="--card-delay: 0">
+            <div class="program-bg" style="background-image: url('/gallery_activities.png')"></div>
+            <div class="program-overlay"></div>
+            <div class="program-content">
+              <div class="program-icon">🏰</div>
+              <h3>Indoor Play Zone</h3>
+              <p>A paradise filled with slides, ball pits, climbing structures, and more. Designed to keep children active, engaged, and happy while ensuring complete safety.</p>
+              <span class="program-tag">30+ Activities</span>
+            </div>
+          </div>
+          <div class="program-card-v2 anim-reveal" style="--card-delay: 1">
+            <div class="program-bg" style="background-image: url('/gallery_preschool.png')"></div>
+            <div class="program-overlay"></div>
+            <div class="program-content">
+              <div class="program-icon">📖</div>
+              <h3>Preschool</h3>
+              <p>Montessori Play-Way Learning focusing on cognitive skills, communication abilities, and environmental awareness through fun-based learning.</p>
+              <span class="program-tag">Montessori Method</span>
+            </div>
+          </div>
+          <div class="program-card-v2 anim-reveal" style="--card-delay: 2">
+            <div class="program-bg" style="background-image: url('/gallery_preschool2.png')"></div>
+            <div class="program-overlay"></div>
+            <div class="program-content">
+              <div class="program-icon">🏠</div>
+              <h3>Daycare Services</h3>
+              <p>A safe and caring environment for working parents. Children are supervised, engaged in meaningful activities, and feel comfortable throughout the day.</p>
+              <span class="program-tag">Full Day Care</span>
+            </div>
+          </div>
+          <div class="program-card-v2 anim-reveal" style="--card-delay: 3">
+            <div class="program-bg" style="background-image: url('/gallery_birthday.png')"></div>
+            <div class="program-overlay"></div>
+            <div class="program-content">
+              <div class="program-icon">🎉</div>
+              <h3>Birthday Parties</h3>
+              <p>Celebrate your child's special day in a magical way with complete event arrangements, fun play access, and customizable party options.</p>
+              <span class="program-tag">Custom Themes</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== TESTIMONIALS ===== -->
+    <section id="testimonials" class="testimonials">
+      <div class="container">
+        <h2 class="section-title text-center anim-reveal">Happy <span class="text-rainbow">Families</span></h2>
+        <div class="rating-badge anim-reveal">
+          <span class="stars">⭐⭐⭐⭐⭐</span>
+          <span class="rating-text">Rated 4.9 / 5</span>
+        </div>
+
+        <div class="testimonial-carousel-wrapper">
+          <div class="testimonial-track">
+            <div class="testimonial-card glass-card-v2">
+              <p class="review">"Giggles Play Zone is an absolutely wonderful place for kids. The play area is clean, safe, and full of fun activities. The staff is very friendly and caring."</p>
+              <h5 class="reviewer">— Happy Parent</h5>
+            </div>
+            <div class="testimonial-card glass-card-v2">
+              <p class="review">"We celebrated our daughter's birthday here and everything was perfectly arranged. The experience was stress-free and joyful."</p>
+              <h5 class="reviewer">— Birthday Family</h5>
+            </div>
+            <div class="testimonial-card glass-card-v2">
+              <p class="review">"A joyful, hygienic, and colorful environment. My child had an amazing time. Highly recommended."</p>
+              <h5 class="reviewer">— Visiting Parent</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== GALLERY ===== -->
+    <section id="gallery" class="gallery">
+      <div class="container">
+        <h2 class="section-title text-center anim-reveal">Magical <span class="text-rainbow">Moments</span></h2>
+        <p class="text-center section-desc anim-reveal">A glimpse into the joyful world of Giggles where every smile tells a story.</p>
+
+        <div class="gallery-grid">
+          <div class="gallery-item anim-reveal"><img src="/gallery-1.jpg" alt="Giggles Moment 1" loading="lazy" /></div>
+          <div class="gallery-item anim-reveal"><img src="/gallery-2.jpg" alt="Giggles Moment 2" loading="lazy" /></div>
+          <div class="gallery-item anim-reveal"><img src="/gallery-3.jpg" alt="Giggles Moment 3" loading="lazy" /></div>
+          <div class="gallery-item anim-reveal"><img src="/gallery-4.jpg" alt="Giggles Moment 4" loading="lazy" /></div>
+          <div class="gallery-item anim-reveal"><img src="/gallery-5.jpg" alt="Giggles Moment 5" loading="lazy" /></div>
+          <div class="gallery-item anim-reveal"><img src="/gallery-6.jpg" alt="Giggles Moment 6" loading="lazy" /></div>
+          <div class="gallery-item anim-reveal"><img src="/gallery-7.jpg" alt="Giggles Moment 7" loading="lazy" /></div>
+          <div class="gallery-item anim-reveal"><img src="/gallery-8.jpg" alt="Giggles Moment 8" loading="lazy" /></div>
+          <div class="gallery-item anim-reveal"><img src="/gallery-9.jpg" alt="Giggles Moment 9" loading="lazy" /></div>
+          <div class="gallery-item anim-reveal"><img src="/gallery-10.jpg" alt="Giggles Moment 10" loading="lazy" /></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== FAQS ===== -->
+    <section id="faqs" class="faqs">
+      <div class="container">
+        <h2 class="section-title text-center anim-reveal">Frequently Asked <span class="text-rainbow">Questions</span></h2>
+        <div class="faq-list">
+          <div class="faq-item glass-card-v2 anim-reveal">
+            <button class="faq-question">
+              <span>What age group is Giggles Play Zone suitable for?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>Giggles Play Zone is designed for children aged 2 to 8 years. Our activities and programs are tailored to ensure age-appropriate fun, learning, and development.</p>
+            </div>
+          </div>
+          <div class="faq-item glass-card-v2 anim-reveal">
+            <button class="faq-question">
+              <span>Is the play zone safe and hygienic?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>Absolutely! Safety and hygiene are our top priorities. We have soft play structures, padded surfaces, and a fully air-conditioned environment. Everything is regularly sanitized.</p>
+            </div>
+          </div>
+          <div class="faq-item glass-card-v2 anim-reveal">
+            <button class="faq-question">
+              <span>Do parents need to stay with their children?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>For the play zone, parents are welcome to stay or they can leave their child under our careful supervision. For daycare and preschool programs, children are looked after throughout.</p>
+            </div>
+          </div>
+          <div class="faq-item glass-card-v2 anim-reveal">
+            <button class="faq-question">
+              <span>Can I host my child's birthday party here?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>Yes! We offer complete birthday party packages with customizable themes, decorations, play access for all kids, and a stress-free experience for parents. Call us to book!</p>
+            </div>
+          </div>
+          <div class="faq-item glass-card-v2 anim-reveal">
+            <button class="faq-question">
+              <span>What are your working hours?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>Monday to Friday: 9:30 AM to 9:00 PM<br>Saturday & Sunday: 11:00 AM to 9:00 PM</p>
+            </div>
+          </div>
+          <div class="faq-item glass-card-v2 anim-reveal">
+            <button class="faq-question">
+              <span>What learning approach does the preschool follow?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>We follow a Montessori play-way curriculum that focuses on cognitive skills, social behavior, communication, and creativity through natural, fun-based learning.</p>
+            </div>
+          </div>
+          <div class="faq-item glass-card-v2 anim-reveal">
+            <button class="faq-question">
+              <span>Are socks mandatory for children?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>Yes, we recommend children wear socks inside the play area for hygiene and safety purposes. Clean socks also help prevent slipping.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CTA ===== -->
+    <section id="cta" class="cta-section">
+      <div class="cta-rainbow-bg"></div>
+      <div class="container text-center anim-reveal">
+        <img src="/logo.jpg" alt="Giggles Logo" class="cta-logo" />
+        <h2>Come See the <span class="text-rainbow">Magic</span> Yourself</h2>
+        <p>Let your child explore a world full of fun, learning, and laughter.</p>
+        <div class="cta-buttons">
+          <a href="#contact" class="btn-primary glowing">Book a Visit</a>
+          <a href="tel:+919014999346" class="btn-secondary">📞 Call Now</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CONTACT SECTION ===== -->
+    <section id="contact" class="contact-section">
+      <div class="container">
+        <h2 class="section-title text-center anim-reveal">Get In <span class="text-rainbow">Touch</span></h2>
+        <div class="contact-grid">
+          <div class="contact-left anim-reveal">
+            <div class="contact-card glass-card-v2">
+              <h4>📍 Address</h4>
+              <p>Plot No 51 and 52, Above Union Bank<br>Sai Krupa Colony, Yapral<br>Secunderabad, Telangana 500087</p>
+            </div>
+            <div class="contact-card glass-card-v2">
+              <h4>📞 Phone</h4>
+              <p><a href="tel:+919014999346" style="color:var(--secondary); text-decoration:none;">090149 99346</a></p>
+            </div>
+            <div class="contact-card glass-card-v2">
+              <h4>🕒 Working Hours</h4>
+              <p>Mon - Fri: 9:30 AM to 9:00 PM<br>Sat - Sun: 11:00 AM to 9:00 PM</p>
+            </div>
+          </div>
+          <div class="contact-right anim-reveal">
+            <div class="map-wrapper glass-card-v2">
+              <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3805.033!2d78.5370582!3d17.5030099!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb9bba60297c11%3A0x97fffb9109a249d2!2sGiggles%20Play%20Zone!5e0!3m2!1sen!2sin!4v1713800000000"
+                width="100%" height="350" style="border:0; border-radius: 20px;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+              </iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="main-footer">
+    <div class="container text-center">
+      <img src="/logo.jpg" alt="Giggles Logo" class="footer-logo" />
+      <h2>Giggles Play Zone</h2>
+      <p>Where every child smiles, learns, and grows.</p>
+      <p class="copyright">&copy; 2026 Giggles Play Zone. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+
+</html>
